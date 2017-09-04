@@ -1,0 +1,63 @@
+object Form4: TForm4
+  Left = 490
+  Top = 170
+  BorderStyle = None
+  Caption = 'Form4'
+  ClientHeight = 389
+  ClientWidth = 330
+  Fill.Color = xFF323232
+  Fill.Kind = Solid
+  Position = Designed
+  StyleBook = Form1.StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 490
+  Top = 170
+  DesignerMasterStyle = 0
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 330.000000000000000000
+    Size.Height = 339.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'transparentlistboxstyle'
+    TabOrder = 1
+    OnDblClick = ListBox1DblClick
+    DisableFocusEffect = True
+    ItemHeight = 30.000000000000000000
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 330.000000000000000000
+    Viewport.Height = 339.000000000000000000
+  end
+  object Panel1: TPanel
+    Align = Bottom
+    Position.Y = 339.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Button1: TButton
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 112.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = #1042#1099#1073#1088#1072#1090#1100
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Anchors = [akTop, akRight]
+      Position.X = 211.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 112.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = #1054#1090#1084#1077#1085#1072
+      OnClick = Button2Click
+    end
+  end
+end

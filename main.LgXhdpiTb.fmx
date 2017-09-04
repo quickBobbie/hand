@@ -1,0 +1,66 @@
+inherited Form1_LgXhdpiTb: TForm1_LgXhdpiTb
+  ClientHeight = 854
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited Panel1: TPanel
+    Size.Width = 480.000000000000000000
+    inherited SpeedButton1: TSpeedButton
+      Position.X = 434.000000000000000000
+    end
+    inherited SpeedButton2: TSpeedButton
+      Position.X = 342.000000000000000000
+    end
+    inherited Label5: TLabel
+      Size.Width = 342.000000000000000000
+    end
+    inherited SpeedButton8: TSpeedButton
+      Position.X = 388.000000000000000000
+    end
+  end
+  inherited ListBox1: TListBox
+    Size.Width = 432.000000000000000000
+    Size.Height = 701.000000000000000000
+    Viewport.Width = 432.000000000000000000
+    Viewport.Height = 701.000000000000000000
+  end
+  inherited Panel2: TPanel
+    Position.Y = 734.000000000000000000
+    Size.Width = 480.000000000000000000
+    inherited Panel4: TPanel
+      Position.X = 215.000000000000000000
+    end
+    inherited Panel6: TPanel
+      Size.Width = 480.000000000000000000
+      inherited Label3: TLabel
+        Size.Height = 20.000000000000000000
+      end
+      inherited Label4: TLabel
+        Position.X = 410.000000000000000000
+        Size.Height = 20.000000000000000000
+      end
+      inherited ProgressBar1: TProgressBar
+        Size.Width = 270.000000000000000000
+      end
+      inherited Panel3: TPanel
+        Position.X = 196.000000000000000000
+      end
+      inherited Panel7: TPanel
+        Position.X = 364.000000000000000000
+      end
+    end
+  end
+  inherited ListBox2: TListBox
+    Size.Width = 437.000000000000000000
+    Size.Height = 701.000000000000000000
+    Viewport.Width = 494.000000000000000000
+    Viewport.Height = 337.000000000000000000
+  end
+  inherited MultiView1: TMultiView
+    Size.Width = 250.000000000000000000
+    inherited ListBox3: TListBox
+      Size.Height = 401.000000000000000000
+      Viewport.Width = 49.000000000000000000
+      Viewport.Height = 401.000000000000000000
+    end
+  end
+end

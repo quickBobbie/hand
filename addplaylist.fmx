@@ -1,0 +1,72 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  Caption = 'Form2'
+  ClientHeight = 101
+  ClientWidth = 289
+  Fill.Color = xFF222222
+  Fill.Kind = Solid
+  Position = MainFormCenter
+  StyleBook = Form1.StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 289.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'Panel1Style1'
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Horizontal
+      Position.Y = 16.000000000000000000
+      Size.Width = 289.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = #1044#1086#1073#1072#1074#1083#1077#1085#1080#1077' '#1085#1086#1074#1086#1075#1086' '#1087#1083#1077#1081' '#1083#1080#1089#1090#1072
+    end
+  end
+  object Panel2: TPanel
+    Align = Bottom
+    ClipChildren = True
+    Position.Y = 55.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 46.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'Panel2Style1'
+    TabOrder = 1
+    object Button1: TButton
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 104.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = #1044#1086#1073#1072#1074#1080#1090#1100
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Position.X = 192.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = #1054#1090#1084#1077#1085#1072
+      OnClick = Button2Click
+    end
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 8.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

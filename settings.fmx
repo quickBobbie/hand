@@ -1,0 +1,449 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  Caption = 'Form3'
+  ClientHeight = 429
+  ClientWidth = 627
+  Fill.Color = xFF222222
+  Fill.Kind = Solid
+  Position = DesktopCenter
+  StyleBook = Form1.StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  inline Frame11: TFrame1
+    Align = Client
+    Size.Width = 627.000000000000000000
+    Size.Height = 332.000000000000000000
+    Size.PlatformDefault = False
+    inherited ComboBox1: TComboBox
+      Position.X = 312.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 313.000000000000000000
+      Size.Height = 32.000000000000000000
+      ParentShowHint = False
+      inherited ListBoxItem2: TListBoxItem
+        Position.Y = 19.000000000000000000
+      end
+    end
+    inherited Switch1: TSwitch
+      Position.X = 456.000000000000000000
+      Position.Y = 80.000000000000000000
+      Size.Width = 44.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      OnSwitch = Frame11Switch1Switch
+    end
+    inherited CheckBox1: TCheckBox
+      IsChecked = True
+      Position.X = 64.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inherited CheckBox2: TCheckBox
+      Position.X = 312.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 289.000000000000000000
+    end
+    inherited CheckBox3: TCheckBox
+      Position.X = 64.000000000000000000
+      Position.Y = 176.000000000000000000
+      Size.Width = 217.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1057#1086#1093#1088#1072#1085#1103#1090#1100' '#1090#1077#1082#1091#1097#1080#1081' '#1090#1088#1077#1082
+    end
+    inherited CheckBox4: TCheckBox
+      IsChecked = True
+      Position.X = 312.000000000000000000
+      Position.Y = 176.000000000000000000
+      Size.Width = 225.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1057#1086#1093#1088#1072#1085#1103#1090#1100' '#1087#1083#1077#1081' '#1083#1080#1089#1090
+    end
+    inherited CheckBox5: TCheckBox
+      Position.X = 64.000000000000000000
+      Position.Y = 224.000000000000000000
+      Size.Width = 217.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inherited CheckBox6: TCheckBox
+      IsChecked = True
+      Position.X = 312.000000000000000000
+      Position.Y = 224.000000000000000000
+      Size.Width = 273.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inherited CheckBox7: TCheckBox
+      IsChecked = True
+      Position.X = 64.000000000000000000
+      Position.Y = 272.000000000000000000
+      Size.Width = 233.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inherited CheckBox8: TCheckBox
+      Position.X = 312.000000000000000000
+      Position.Y = 272.000000000000000000
+      Size.Width = 313.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1057#1086#1093#1088#1072#1085#1103#1090#1100' '#1085#1072#1089#1090#1088#1086#1081#1082#1080' '#1075#1083#1072#1074#1085#1086#1075#1086' '#1086#1082#1085#1072
+    end
+    inherited Label1: TLabel
+      AutoSize = True
+      Position.X = 64.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 132.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.WordWrap = False
+    end
+    inherited Label2: TLabel
+      Position.X = 64.000000000000000000
+      Position.Y = 80.000000000000000000
+    end
+    inherited Label3: TLabel
+      Position.X = 312.000000000000000000
+      Position.Y = 80.000000000000000000
+      Size.Width = 89.000000000000000000
+    end
+    inherited Label4: TLabel
+      Position.X = 504.000000000000000000
+      Position.Y = 80.000000000000000000
+      Size.Width = 121.000000000000000000
+    end
+  end
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 627.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    OnMouseDown = Panel1MouseDown
+    object SpeedButton5: TSpeedButton
+      Align = Right
+      Position.X = 587.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'stoptoolbutton'
+      Text = 'SpeedButton5'
+      OnClick = SpeedButton5Click
+    end
+    object Label1: TLabel
+      Align = Client
+      Size.Width = 587.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = #1053#1072#1089#1090#1088#1086#1081#1082#1080
+    end
+  end
+  object Panel2: TPanel
+    Align = Bottom
+    Position.Y = 365.000000000000000000
+    Size.Width = 627.000000000000000000
+    Size.Height = 64.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'Panel2Style1'
+    TabOrder = 4
+    object Button1: TButton
+      Position.X = 8.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 130.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = #1057#1086#1093#1088#1072#1085#1080#1090#1100
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Position.X = 504.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 130.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = #1054#1090#1084#1077#1085#1072
+      OnClick = Button2Click
+    end
+  end
+  inline Frame21: TFrame2
+    Align = Client
+    Size.Width = 627.000000000000000000
+    Size.Height = 382.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    inherited TrackBar1: TTrackBar
+      Position.X = 88.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 24.000000000000000000
+      OnChange = Frame21TrackBar1Change
+    end
+    inherited TrackBar2: TTrackBar
+      Position.X = 136.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 24.000000000000000000
+      OnChange = Frame21TrackBar2Change
+    end
+    inherited TrackBar3: TTrackBar
+      Position.X = 184.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 24.000000000000000000
+      OnChange = Frame21TrackBar3Change
+    end
+    inherited TrackBar4: TTrackBar
+      Position.X = 232.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 24.000000000000000000
+      OnChange = Frame21TrackBar4Change
+    end
+    inherited TrackBar5: TTrackBar
+      Position.X = 280.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 24.000000000000000000
+      OnChange = Frame21TrackBar5Change
+    end
+    inherited TrackBar6: TTrackBar
+      Position.X = 328.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 24.000000000000000000
+      OnChange = Frame21TrackBar6Change
+    end
+    inherited TrackBar7: TTrackBar
+      Position.X = 376.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 24.000000000000000000
+      OnChange = Frame21TrackBar7Change
+    end
+    inherited TrackBar8: TTrackBar
+      Position.X = 424.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 24.000000000000000000
+      OnChange = Frame21TrackBar8Change
+    end
+    inherited TrackBar9: TTrackBar
+      Position.X = 472.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 24.000000000000000000
+      OnChange = Frame21TrackBar9Change
+    end
+    inherited TrackBar10: TTrackBar
+      Position.X = 520.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 24.000000000000000000
+      OnChange = Frame21TrackBar10Change
+    end
+    inherited Label1: TLabel
+      Position.X = 88.000000000000000000
+      Position.Y = 264.000000000000000000
+    end
+    inherited Label2: TLabel
+      Position.X = 136.000000000000000000
+      Position.Y = 264.000000000000000000
+    end
+    inherited Label3: TLabel
+      Position.X = 184.000000000000000000
+      Position.Y = 264.000000000000000000
+    end
+    inherited Label4: TLabel
+      Position.X = 232.000000000000000000
+      Position.Y = 264.000000000000000000
+      Size.Width = 33.000000000000000000
+    end
+    inherited Label5: TLabel
+      Position.X = 280.000000000000000000
+      Position.Y = 264.000000000000000000
+      Size.Width = 33.000000000000000000
+    end
+    inherited Label6: TLabel
+      Position.X = 328.000000000000000000
+      Position.Y = 264.000000000000000000
+    end
+    inherited Label7: TLabel
+      Position.X = 376.000000000000000000
+      Position.Y = 264.000000000000000000
+    end
+    inherited Label8: TLabel
+      Position.X = 424.000000000000000000
+      Position.Y = 264.000000000000000000
+    end
+    inherited Label9: TLabel
+      Position.X = 472.000000000000000000
+      Position.Y = 264.000000000000000000
+    end
+    inherited Label10: TLabel
+      Position.X = 520.000000000000000000
+      Position.Y = 264.000000000000000000
+      Size.Width = 33.000000000000000000
+    end
+    inherited Label11: TLabel
+      Position.X = 552.000000000000000000
+      Position.Y = 232.000000000000000000
+    end
+    inherited Label12: TLabel
+      Position.X = 552.000000000000000000
+      Position.Y = 144.000000000000000000
+    end
+    inherited Label13: TLabel
+      Position.X = 552.000000000000000000
+      Position.Y = 56.000000000000000000
+    end
+    inherited Button1: TButton
+      Position.X = 80.000000000000000000
+      Position.Y = 328.000000000000000000
+      Size.Width = 520.000000000000000000
+      Size.Height = 33.000000000000000000
+      OnClick = Frame21Button1Click
+    end
+  end
+  inline Frame31: TFrame3
+    Align = Client
+    Size.Width = 627.000000000000000000
+    Size.Height = 332.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    inherited GroupBox1: TGroupBox
+      Position.X = 64.000000000000000000
+      Size.Width = 561.000000000000000000
+      inherited RadioButton1: TRadioButton
+        IsChecked = True
+        Position.Y = 32.000000000000000000
+        Size.Width = 209.000000000000000000
+        OnChange = Frame31RadioButton1Change
+      end
+      inherited RadioButton2: TRadioButton
+        Position.Y = 80.000000000000000000
+        Size.Width = 169.000000000000000000
+        Size.PlatformDefault = False
+        OnChange = Frame31RadioButton2Change
+      end
+      inherited Button1: TButton
+        Position.X = 512.000000000000000000
+        Size.Height = 32.000000000000000000
+        OnClick = Frame31Button1Click
+      end
+      inherited Button2: TButton
+        Enabled = False
+        Position.X = 512.000000000000000000
+        Size.Height = 32.000000000000000000
+        OnClick = Frame31Button2Click
+      end
+      inherited Edit1: TEdit
+        Position.X = 232.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 273.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+      inherited Edit2: TEdit
+        Position.X = 232.000000000000000000
+        Position.Y = 72.000000000000000000
+        Enabled = False
+        Size.Width = 273.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+    end
+    inherited GroupBox2: TGroupBox
+      Enabled = False
+      Position.X = 64.000000000000000000
+      Size.Width = 561.000000000000000000
+      Size.Height = 233.000000000000000000
+      inherited Edit3: TEdit
+        Size.Width = 361.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+      inherited Edit4: TEdit
+        Position.Y = 64.000000000000000000
+        Size.Width = 361.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+      inherited Edit5: TEdit
+        Position.Y = 104.000000000000000000
+        Size.Width = 361.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+      inherited Edit6: TEdit
+        Position.Y = 144.000000000000000000
+        Size.Width = 361.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+      inherited Edit7: TEdit
+        Position.Y = 184.000000000000000000
+        Size.Width = 361.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+      inherited Label1: TLabel
+        Position.Y = 32.000000000000000000
+        Text = #1048#1089#1087#1086#1083#1085#1080#1090#1077#1083#1100
+      end
+      inherited Label2: TLabel
+        Position.Y = 72.000000000000000000
+        Text = #1053#1072#1079#1074#1072#1085#1080#1077
+      end
+      inherited Label3: TLabel
+        Position.Y = 112.000000000000000000
+        Text = #1040#1083#1100#1073#1086#1084
+      end
+      inherited Label4: TLabel
+        Position.Y = 152.000000000000000000
+        Text = #1043#1086#1076
+      end
+      inherited Label5: TLabel
+        Position.Y = 192.000000000000000000
+        Text = #1046#1072#1085#1088
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 8
+    Top = 281
+  end
+  object MultiView1: TMultiView
+    MasterButton = SpeedButton1
+    Mode = NavigationPane
+    Opacity = 0.959999978542327900
+    Size.Width = 249.000000000000000000
+    Size.Height = 332.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object SpeedButton1: TSpeedButton
+      Align = Top
+      Size.Width = 49.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'detailstoolbuttonmultiview'
+      Text = #1052#1077#1085#1102
+    end
+    object SpeedButton2: TSpeedButton
+      Align = Top
+      Position.Y = 50.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'composetoolbuttonmultiview'
+      Text = #1054#1089#1085#1086#1074#1085#1099#1077
+      OnClick = SpeedButton2Click
+    end
+    object SpeedButton3: TSpeedButton
+      Align = Top
+      Position.Y = 100.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'composetoolbuttonmultiview'
+      Text = #1069#1082#1074#1072#1083#1072#1081#1079#1077#1088
+      OnClick = SpeedButton3Click
+    end
+    object SpeedButton4: TSpeedButton
+      Align = Top
+      Position.Y = 150.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'composetoolbuttonmultiview'
+      Text = #1056#1077#1076#1072#1082#1090#1086#1088' '#1090#1077#1075#1086#1074
+      OnClick = SpeedButton4Click
+    end
+  end
+end

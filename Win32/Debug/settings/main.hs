@@ -1,0 +1,11 @@
+[main]
+Language=0
+Theme=1
+AutoPlay=1
+InfoHead=1
+TrackIndex=0
+AutoSavePL=1
+SaveEqualizer=0
+SaveVolume=1
+SaveRepeat=1
+SaveWinPosition=1

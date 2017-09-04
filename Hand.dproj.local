@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.619,C:\Users\Bobbie\Desktop\Hand\addplaylist.fmx=C:\Users\Bobbie\Desktop\Hand\Unit2.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.270,=C:\Users\Bobbie\Desktop\Hand\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.332,=C:\Users\Bobbie\Documents\Embarcadero\Studio\Projects\GroupedItems1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.921,C:\Users\Bobbie\Desktop\Hand\settings.fmx=C:\Users\Bobbie\Desktop\Hand\Unit3.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.807,=C:\Users\Bobbie\Documents\Embarcadero\Studio\Projects\ItemDetail1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,C:\Users\Bobbie\Desktop\Hand\Unit3.fmx=C:\Users\Bobbie\Desktop\Hand\tagredactor.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.367,=C:\Users\Bobbie\Desktop\Hand\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.034,C:\Users\Bobbie\Desktop\Hand\Unit2.pas=C:\Users\Bobbie\Desktop\Hand\Equalizer.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.362,=C:\Users\Bobbie\Desktop\Hand\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.670,=C:\Users\Bobbie\Desktop\Hand\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.140,=C:\Users\Bobbie\Desktop\Hand\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.019,C:\Users\Bobbie\Desktop\Hand\addfilefromplaylist.fmx=C:\Users\Bobbie\Desktop\Hand\Unit4.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.587,C:\Users\Bobbie\Desktop\Hand\Unit5.pas=C:\Users\Bobbie\Desktop\Hand\about.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,C:\Users\Bobbie\Desktop\Hand\Unit3.pas=C:\Users\Bobbie\Desktop\Hand\tagredactor.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.920,=C:\Users\Bobbie\Desktop\Hand\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.983,C:\Users\Bobbie\Desktop\Hand Audio Player\main.fmx=C:\Users\Bobbie\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.739,C:\Users\Bobbie\Desktop\Hand\mainset.fmx=C:\Users\Bobbie\Desktop\Hand\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.619,C:\Users\Bobbie\Desktop\Hand\addplaylist.pas=C:\Users\Bobbie\Desktop\Hand\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.739,C:\Users\Bobbie\Desktop\Hand\mainset.pas=C:\Users\Bobbie\Desktop\Hand\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.034,C:\Users\Bobbie\Desktop\Hand\Unit2.fmx=C:\Users\Bobbie\Desktop\Hand\Equalizer.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.019,C:\Users\Bobbie\Desktop\Hand\addfilefromplaylist.pas=C:\Users\Bobbie\Desktop\Hand\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.091,=C:\Users\Bobbie\Desktop\Hand\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.616,=C:\Users\Bobbie\Desktop\Hand\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.294,C:\Users\Bobbie\Desktop\Hand Audio Player\Hand.dproj=C:\Users\Bobbie\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.921,C:\Users\Bobbie\Desktop\Hand\settings.pas=C:\Users\Bobbie\Desktop\Hand\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.132,=C:\Users\Bobbie\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.631,=C:\Users\Bobbie\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.109,=C:\Users\Bobbie\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.983,C:\Users\Bobbie\Desktop\Hand Audio Player\main.pas=C:\Users\Bobbie\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.587,C:\Users\Bobbie\Desktop\Hand\Unit5.fmx=C:\Users\Bobbie\Desktop\Hand\about.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.030,=C:\Users\Bobbie\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.030,=C:\Users\Bobbie\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.672,=C:\Users\Bobbie\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.405,=C:\Users\Bobbie\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="apk-expansion.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-analytics-v2.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="google-play-services.dex.jar"/>
+    <File Path="about.pas"/>
+    <File Path="about.fmx"/>
+    <File Path="addfilefromplaylist.pas"/>
+    <File Path="addfilefromplaylist.fmx"/>
+    <File Path="addplaylist.pas"/>
+    <File Path="addplaylist.fmx"/>
+    <File Path="Equalizer.pas"/>
+    <File Path="Equalizer.fmx"/>
+    <File Path="main.pas"/>
+    <File Path="main.fmx"/>
+    <File Path="mainset.pas"/>
+    <File Path="mainset.fmx"/>
+    <File Path="settings.pas"/>
+    <File Path="settings.fmx"/>
+    <File Path="tagredactor.pas"/>
+    <File Path="tagredactor.fmx"/>
+  </ProjectSortOrder>
+</BorlandProject>

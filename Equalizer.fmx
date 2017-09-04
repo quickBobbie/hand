@@ -1,0 +1,238 @@
+object Frame2: TFrame2
+  Size.Width = 533.000000000000000000
+  Size.Height = 286.000000000000000000
+  Size.PlatformDefault = False
+  object TrackBar1: TTrackBar
+    CanParentFocus = True
+    Max = 30.000000000000000000
+    Orientation = Vertical
+    Position.X = 16.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 19.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Value = 15.000000000000000000
+  end
+  object TrackBar2: TTrackBar
+    CanParentFocus = True
+    Max = 30.000000000000000000
+    Orientation = Vertical
+    Position.X = 64.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 19.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Value = 15.000000000000000000
+  end
+  object TrackBar3: TTrackBar
+    CanParentFocus = True
+    Max = 30.000000000000000000
+    Orientation = Vertical
+    Position.X = 112.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 19.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Value = 15.000000000000000000
+  end
+  object TrackBar4: TTrackBar
+    CanParentFocus = True
+    Max = 30.000000000000000000
+    Orientation = Vertical
+    Position.X = 160.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 19.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Value = 15.000000000000000000
+  end
+  object TrackBar5: TTrackBar
+    CanParentFocus = True
+    Max = 30.000000000000000000
+    Orientation = Vertical
+    Position.X = 208.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 19.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Value = 15.000000000000000000
+  end
+  object TrackBar6: TTrackBar
+    CanParentFocus = True
+    Max = 30.000000000000000000
+    Orientation = Vertical
+    Position.X = 256.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 19.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Value = 15.000000000000000000
+  end
+  object TrackBar7: TTrackBar
+    CanParentFocus = True
+    Max = 30.000000000000000000
+    Orientation = Vertical
+    Position.X = 304.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 19.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Value = 15.000000000000000000
+  end
+  object TrackBar8: TTrackBar
+    CanParentFocus = True
+    Max = 30.000000000000000000
+    Orientation = Vertical
+    Position.X = 352.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 19.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Value = 15.000000000000000000
+  end
+  object TrackBar9: TTrackBar
+    CanParentFocus = True
+    Max = 30.000000000000000000
+    Orientation = Vertical
+    Position.X = 400.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 19.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Value = 15.000000000000000000
+  end
+  object TrackBar10: TTrackBar
+    CanParentFocus = True
+    Max = 30.000000000000000000
+    Orientation = Vertical
+    Position.X = 448.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 19.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Value = 15.000000000000000000
+  end
+  object Label1: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '32'
+  end
+  object Label2: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '64'
+  end
+  object Label3: TLabel
+    Position.X = 112.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '125'
+  end
+  object Label4: TLabel
+    Position.X = 160.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '250'
+  end
+  object Label5: TLabel
+    Position.X = 208.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '500'
+  end
+  object Label6: TLabel
+    Position.X = 256.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '1K'
+  end
+  object Label7: TLabel
+    Position.X = 304.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '2K'
+  end
+  object Label8: TLabel
+    Position.X = 352.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '4K'
+  end
+  object Label9: TLabel
+    Position.X = 400.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '8K'
+  end
+  object Label10: TLabel
+    Position.X = 448.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '16K'
+  end
+  object Label11: TLabel
+    Position.X = 480.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '-15 db'
+  end
+  object Label12: TLabel
+    Position.X = 480.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '0 db'
+  end
+  object Label13: TLabel
+    Position.X = 480.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '15 db'
+  end
+  object Button1: TButton
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 512.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 23
+    Text = #1057#1073#1088#1086#1089
+  end
+end

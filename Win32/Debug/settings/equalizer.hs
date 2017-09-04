@@ -1,0 +1,11 @@
+[Equalizer]
+Eq1=22
+Eq2=9
+Eq3=13
+Eq4=19
+Eq5=9
+Eq6=13
+Eq7=21
+Eq8=18
+Eq9=11
+Eq10=22
